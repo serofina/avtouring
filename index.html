@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AV Touring</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/aad1b61175.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS only -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Coustmer CSS only -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Alliance vacation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="package.html">Tour Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore Top Destination
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bangkok</a></li>
+                <li><a class="dropdown-item" href="#">Phuket</a></li>
+                <li><a class="dropdown-item" href="#">Chiang Mai</a></li>
+                <li><a class="dropdown-item" href="#">Chiang Rai</a></li>
+                <li><a class="dropdown-item" href="#">Pattaya</a></li>
+                <li><a class="dropdown-item" href="#">Kanchanaburi</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a href="contract.html" class="btn btn-primary-nav">Contract</a>
+          <a href="booking.html" class="btn btn-primary-nav">Booking</a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- carousel 1 start -->
+        <div class="carousel-item bg-index active">
+          <img src="/images/carousel1.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Let's Discover The World Together
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- carousel 1 end -->
+
+        <!-- carousel 2 start -->
+        <div class="carousel-item">
+          <img src="/images/carousel2.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Let's Discover The World Together
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- carousel 2 end -->
+
+        <div class="carousel-item">
+          <img src="/images/carousel3.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Discover unforgettable travel experiences
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-6" style="min-height: 500px">
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute w-100 h-100"
+                src="images/about.jpg"
+                style="object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5 pb-lg-5">
+            <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+              <h6
+                class="text-primary text-uppercase"
+                style="letter-spacing: 5px"
+              >
+                About Us
+              </h6>
+              <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
+              <p>
+                Alliance Vacation provides the real Thailand in a way like no
+                other. You visit the top tourist destinations – Bangkok, Phuket,
+                Chiang Mai, Chiang Rai, and more.
+              </p>
+              <p>
+                We also provided the UP 2 YOU package, which you can tell us
+                where you want to go and see. Everything is up to your request.
+              </p>
+              <div class="row mb-4">
+                <div class="col-6">
+                  <img class="img-fluid" src="img/about-1.jpg" alt="" />
+                </div>
+                <div class="col-6">
+                  <img class="img-fluid" src="img/about-2.jpg" alt="" />
+                </div>
+              </div>
+              <a href="" class="btn btn-primary mt-1">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <section class="service-grid pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 text-center mb-4">
+            <div class="service-title">
+              <h4>Our Services</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h4>Travel Guide</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="far fa-chart-bar"></i>
+              </div>
+              <h4>Booking Hotel</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4>Up 2 you Packages</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>service & plugins</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="fas fa-chart-pie"></i>
+              </div>
+              <h4>Optimised for speed</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+              <
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+            <div class="service-wrap">
+              <div class="service-icon">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <h4>Dedicated support</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
